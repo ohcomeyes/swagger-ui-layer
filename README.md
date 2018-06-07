@@ -1,19 +1,19 @@
 # 参考
+
 之前使用swagger的时候就觉得界面不够友好，偶然发现了github上已经有小伙伴弄出来了
 
 果断clone下来重新定制界面并发布到maven中央仓库，以备以后使用
 
 小伙伴地址：https://github.com/caspar-chen/swagger-ui-layer
-### 发布到maven
 
-参考链接：https://blog.csdn.net/h3243212/article/details/72374363?locationNum=3&fps=1
-
-只能说踩过的坑基本上有前辈趟平了
-swagger-ui-layer
+## 作用
 
 swagger-ui-layer 是一个基于swagger的前端UI实现,是为了替换了默认的swagger-ui,让生成的文档更加友好和美观
 
 swagger-ui-layer 要依赖swagger的注解功能，因为swagger-ui-layer 仅仅只是一个前端UI界面的实现，解析的数据来源于 /v2/api-docs
+
+## 更新
+接口展示增加排序，默认使用升序，按字典排序
 
 ### 如何使用
 ##### 1、引入jar包
