@@ -21,12 +21,13 @@ swagger-ui-layer 要依赖swagger的注解功能，因为swagger-ui-layer 仅仅
 首先需要在你的 pom.xml 中引入swagger 和 swagger-ui-layer 最新版的jar包
 
 swagger-ui-layer 最新版jar包地址：http://search.maven.org/#search%7Cga%7C1%7Ccom.github.ohcomeyes
-
+```xml
 <dependency>
   <groupId>com.github.ohcomeyes</groupId>
   <artifactId>swagger-ui-layer</artifactId>
   <version>${last-version}</version>
 </dependency>
+```
 
 ##### 2、swagger使用
 
