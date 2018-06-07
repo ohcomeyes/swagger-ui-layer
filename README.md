@@ -32,10 +32,10 @@ swagger-ui-layer 最新版jar包地址：http://search.maven.org/#search%7Cga%7C
 ##### 2、swagger使用
 
 具体的注解用法可参阅互联网
+
 ##### 3、查看结果
+`swagger-ui-layer` 的默认访问地址是 `http://${host}:${port}/api-docs.html`
 
-swagger-ui-layer 的默认访问地址是 http://${host}:${port}/docs.html
-License
-
+### License
 Apache License 2.0
 
