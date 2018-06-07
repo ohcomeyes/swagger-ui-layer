@@ -28,7 +28,13 @@ $(function(){
 	            var $ = layui.jquery, layer = layui.layer, element = layui.element;
 	        });
             var jsonData = eval(data);
-            
+            var colId = "name"
+            var asc = function(x,y)
+            {
+                return (x[colId] > y[colId]) ? 1 : -1
+            }
+            jsonData.tags.sort(asc)
+
             $("#title").html(jsonData.info.title);
             $("body").html($("#template").render(jsonData));
             

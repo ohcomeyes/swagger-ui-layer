@@ -6,7 +6,10 @@
 
     <groupId>com.github.ohcomeyes</groupId>
     <artifactId>swagger-ui-layer</artifactId>
-    <version>1.0</version>
+    <version>1.2</version>
+    <name>${project.artifactId}</name>
+    <url>https://github.com/ohcomeyes/swagger-ui-layer</url>
+    <description>Pretty swagger ui api documentation</description>
     <!--快照版本<version>1.0-SNAPSHOT</version>-->
 
     <licenses>
@@ -31,6 +34,25 @@
         <url>https://github.com/ohcomeyes/swagger-ui-layer</url>
         <tag>v${project.version}</tag>
     </scm>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>${project.basedir}/src/main/resources</directory>
+                <targetPath>META-INF/resources/</targetPath>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <profiles>
         <profile>
