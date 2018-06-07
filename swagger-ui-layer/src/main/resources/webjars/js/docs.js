@@ -34,7 +34,6 @@ $(function(){
                 return (x[colId] > y[colId]) ? 1 : -1
             }
             jsonData.tags.sort(asc)
-
             $("#title").html(jsonData.info.title);
             $("body").html($("#template").render(jsonData));
             
